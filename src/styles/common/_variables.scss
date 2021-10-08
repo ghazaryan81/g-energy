@@ -1,0 +1,59 @@
+$Bold: 'DINPro-Bold',
+sans-serif;
+$Light: 'DINPro-Light',
+sans-serif;
+$Regular: 'DINPro',
+sans-serif;
+$Medium: 'DINPro-Medium',
+sans-serif;
+$brandColor1: #e95f0e;
+$brandColor11: #ff8036;
+$brandColor2: #252525;
+$brandColor21: #666;
+$brandColor22: #555;
+$brandColor23: #000;
+$brandColor24: #dcdcdc;
+$brandColor25: #dcdcdc;
+$brandColor26: #8a8a8a;
+$brandColor27: #615e5e;
+$brandColor28: #6b6b6c;
+$brandColor29: #cacaca;
+$brandColor30: #dddddd;
+$brandColor31: #eaebed;
+$brandColor32: #b4b6bb;
+$brandColor33: #bbbcbe;
+$brandColor3: #fff;
+$rem-baseline: 16px;
+$smooth-scrollbar-thumb-bg: $brandColor2;
+$smooth-scrollbar-track-bg: $brandColor3;
+$smooth-scrollbar-width: 4px;
+$smooth-scrollbar-height: 4px;
+$GiftBtn-BgColor: $brandColor1;
+$GiftBtn-Color: $brandColor3;
+$GiftBtnIcon-Color: $brandColor3;
+$social-icon-small-outline: $brandColor27;
+$social-icon-small-outline-hover-color: $brandColor3;
+$social-icon-small-fill: $brandColor28;
+$contact-btn-color: $brandColor21;
+$arrow-fill: $brandColor2;
+$drop-down-top-bar-bg-color: $brandColor29;
+$drop-down-top-bar-spacer: $brandColor30;
+
+/*
+$z-layers: (
+  "header":          9001,
+  "footer":          9001,
+  "shoryuken":       8000,
+  "modal": (
+    "base":           500,
+    "close":          100,
+    "header":          50,
+    "footer":          10
+  ),
+  "default":            1,
+  "below":             -1,
+  "bottomless-pit": -9000
+);
+*/
+
+$z-index: ( modal: 200, nav: 100, footer: 90, triangle: 60, navigation-rainbow: 50, share-type: 41, share: 40, );

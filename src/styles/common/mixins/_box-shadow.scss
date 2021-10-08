@@ -1,0 +1,6 @@
+@mixin box-shadow($opacity) {
+  // (inset || outset - default) | offset-x | offset-y | blur-radius | spread-radius | color
+  -webkit-box-shadow: 1px 3px 23px -5px rgba(0, 0, 0, $opacity);
+  -moz-box-shadow: 1px 3px 23px -5px rgba(0, 0, 0, $opacity);
+  box-shadow: 1px 3px 23px -5px rgba(0, 0, 0, $opacity);
+}

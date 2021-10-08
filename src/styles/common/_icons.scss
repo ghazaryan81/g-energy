@@ -1,0 +1,369 @@
+$font-icon-path:'../fonts/icons/';
+@font-face {
+  font-family: 'icomoon';
+  src: url($font-icon-path + 'icomoon.eot?dlw2jr');
+  src: url($font-icon-path + 'icomoon.eot?dlw2jr#iefix') format('embedded-opentype'), url($font-icon-path + 'icomoon.ttf?dlw2jr') format('truetype'), url($font-icon-path + 'icomoon.otf?dlw2jr') format('opentype'), url($font-icon-path + 'icomoon.woff?dlw2jr') format('woff'), url($font-icon-path + 'icomoon.woff2?dlw2jr') format('woff2'), url($font-icon-path + 'icomoon.svg?dlw2jr#icomoon') format('svg');
+}
+
+[class^="ficon-"],
+[class*=" ficon-"] {
+  font-family: icomoon;
+}
+
+.ficon-chart:before {
+  content: "\e900";
+}
+
+.ficon-arrow-down:before {
+  content: "\e901";
+}
+
+.ficon-arrow-next:before {
+  content: "\e902";
+}
+
+.ficon-arrow-prev:before {
+  content: "\e903";
+}
+
+.ficon-hamburger-menu:before {
+  content: "\e904";
+}
+
+.ficon-shopping-cart:before {
+  content: "\e905";
+}
+
+.ficon-link:before {
+  content: "\e906";
+}
+
+.ficon-close:before {
+  content: "\e907";
+}
+
+.ficon-vk-old:before {
+  content: "\e908";
+}
+
+.ficon-delivery:before {
+  content: "\e909";
+}
+
+.ficon-document:before {
+  content: "\e90a";
+}
+
+.ficon-help1:before {
+  content: "\e90b";
+}
+
+.ficon-favorite:before {
+  content: "\e90c";
+}
+
+.ficon-fb:before {
+  content: "\e90d";
+}
+
+.ficon-document-2:before {
+  content: "\e90e";
+}
+
+.ficon-payment1:before {
+  content: "\e90f";
+}
+
+.ficon-delivery-cargo:before {
+  content: "\e910";
+}
+
+.ficon-inst:before {
+  content: "\e911";
+}
+
+.ficon-login:before {
+  content: "\e912";
+}
+
+.ficon-world-1:before {
+  content: "\e914";
+}
+
+.ficon-world-2:before {
+  content: "\e915";
+}
+
+.ficon-world-3:before {
+  content: "\e916";
+}
+
+.ficon-world-4:before {
+  content: "\e917";
+}
+
+.ficon-world-5:before {
+  content: "\e918";
+}
+
+.ficon-world-6:before {
+  content: "\e919";
+}
+
+.ficon-news:before {
+  content: "\e91a";
+}
+
+.ficon-notify:before {
+  content: "\e91b";
+}
+
+.ficon-payment:before {
+  content: "\e91c";
+}
+
+.ficon-registration:before {
+  content: "\e91d";
+}
+
+.ficon-bonus:before {
+  content: "\e91e";
+}
+
+.ficon-service-high:before {
+  content: "\e91f";
+}
+
+.ficon-layouts:before {
+  content: "\e920";
+}
+
+.ficon-settings:before {
+  content: "\e921";
+}
+
+.ficon-support:before {
+  content: "\e922";
+}
+
+.ficon-layouts-2:before {
+  content: "\e923";
+}
+
+.ficon-arrow-up:before {
+  content: "\e924";
+}
+
+.ficon-user:before {
+  content: "\e925";
+}
+
+.ficon-chart-fill:before {
+  content: "\e927";
+}
+
+.ficon-template:before {
+  content: "\e928";
+}
+
+.ficon-close-2:before {
+  content: "\e929";
+}
+
+.ficon-hamburger-menu-2:before {
+  content: "\e92a";
+}
+
+.ficon-list-grid:before {
+  content: "\e92b";
+}
+
+.ficon-check:before {
+  content: "\e92c";
+}
+
+.ficon-minus:before {
+  content: "\e92d";
+}
+
+.ficon-plus:before {
+  content: "\e92e";
+}
+
+.ficon-home:before {
+  content: "\e92f";
+}
+
+.ficon-copy:before {
+  content: "\e930";
+}
+
+.ficon-ruble:before {
+  content: "\e931";
+}
+
+.ficon-return-cargo:before {
+  content: "\e932";
+}
+
+.ficon-help:before {
+  content: "\e933";
+}
+
+.ficon-clean:before {
+  content: "\e934";
+}
+
+.ficon-delivery-2:before {
+  content: "\e935";
+}
+
+.ficon-weight:before {
+  content: "\e936";
+}
+
+.ficon-breaking:before {
+  content: "\e937";
+}
+
+.ficon-plus-2:before {
+  content: "\e938";
+}
+
+.ficon-card:before {
+  content: "\e939";
+}
+
+.ficon-cargo-01:before {
+  content: "\e93a";
+}
+
+.ficon-menu-9:before {
+  content: "\e93b";
+}
+
+.ficon-uniE93C:before {
+  content: "\e93c";
+}
+
+.ficon-cargo-02:before {
+  content: "\e93d";
+}
+
+.ficon-remove:before {
+  content: "\e93e";
+}
+
+.ficon-shopping-cart-outline:before {
+  content: "\e940";
+}
+
+.ficon-ticket:before {
+  content: "\e941";
+}
+
+.ficon-repeat:before {
+  content: "\e942";
+}
+
+.ficon-color:before {
+  content: "\e943";
+}
+
+.ficon-division:before {
+  content: "\e944";
+}
+
+.ficon-resize:before {
+  content: "\e945";
+}
+
+.ficon-bonus1:before {
+  content: "\e947";
+}
+
+.ficon-building:before {
+  content: "\e94a";
+}
+
+.ficon-location:before {
+  content: "\e950";
+}
+
+.ficon-call:before {
+  content: "\e951";
+}
+
+.ficon-email:before {
+  content: "\e952";
+}
+
+.ficon-vk:before {
+  content: "\e953";
+}
+
+.ficon-hamburger-menu-01:before {
+  content: "\e954";
+}
+
+.ficon-hamburger-menu-02:before {
+  content: "\e955";
+}
+
+.ficon-hamburger-menu-03:before {
+  content: "\e956";
+}
+
+.ficon-login-2:before {
+  content: "\e957";
+}
+
+.ficon-edit:before {
+  content: "\e958";
+}
+
+.ficon-settings1:before {
+  content: "\e959";
+}
+
+.ficon-search:before {
+  content: "\e95a";
+}
+
+.ficon-delivery-01:before {
+  content: "\e95b";
+}
+
+.ficon-location-01:before {
+  content: "\e95c";
+}
+
+.ficon-save-cart:before {
+  content: "\e95d";
+}
+
+.ficon-time:before {
+  content: "\e95f";
+}
+
+.ficon-calendar:before {
+  content: "\e960";
+}
+
+.ficon-settings-02:before {
+  content: "\e961";
+}
+
+.ficon-link-2:before {
+  content: "\e962";
+}
+
+.ficon-sub:before {
+  content: "\e963";
+}
+
+
+/*
+example
+<i class="ficon ficon-chart"></i>
+*/

@@ -1,0 +1,46 @@
+@import "../common/variables",
+"../common/mixins";
+[data-scrollbar] {
+  display: block;
+  position: relative;
+}
+
+.scroll-content {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.scrollbar-track {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  background: $smooth-scrollbar-track-bg !important;
+  user-select: none;
+  transition: opacity .5s .5s ease-out;
+}
+
+.scrollbar-track.show,
+.scrollbar-track:hover {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.scrollbar-track-x {
+  bottom: 0;
+  left: 0;
+  @include size(100%, 8px);
+}
+
+.scrollbar-track-y {
+  top: 0;
+  right: 0;
+  @include size($smooth-scrollbar-width !important, 100%);
+}
+
+.scrollbar-thumb {
+  width: $smooth-scrollbar-width !important;
+  background: $smooth-scrollbar-thumb-bg !important;
+  border-radius: 0!important;
+  @include p(absolute);
+}

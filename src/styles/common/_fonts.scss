@@ -1,0 +1,14 @@
+$font-path:'../fonts/dinpro/';
+$list: 'DINPro-Light' 'DINPro-Bold' 'DINPro-Medium' 'DINPro-Regular';
+$fontWeight: 300,
+700,
+500,
+400;
+@each $name in $list {
+ $src: $font-path + $name;
+ @font-face {
+  src: url($src + '.eot');
+  src: url($src + '.eot?#iefix') format('embedded-opentype'), url($src + '.woff2') format('woff2'), url($src + '.woff') format('woff'), url($src + '.ttf') format('truetype'), url($src + '.otf') format('opentype'), url($src + '.svg') format('svg');
+  font-family: $name;
+ }
+}

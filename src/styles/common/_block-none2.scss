@@ -1,0 +1,95 @@
+.el-block {
+ display: block;
+}
+
+.el-flex {
+ display: flex;
+}
+
+.el-none {
+ display: none;
+}
+
+.el-xl-block {
+ display: none;
+ @include xl {
+  display: block;
+ }
+}
+
+.el-lg-block {
+ display: none;
+ @include lg {
+  display: block;
+ }
+}
+
+.el-md-block {
+ display: none;
+ @include md {
+  display: block;
+ }
+}
+
+.el-sm-block {
+ display: none;
+ @include sm {
+  display: block;
+ }
+}
+
+.el-xs-block {
+ display: none;
+ @include xs {
+  display: block;
+ }
+}
+
+// ==========
+.el-xl-none {
+ @include xl {
+  display: none;
+ }
+}
+
+.el-lg-none {
+ @include lg {
+  display: none;
+ }
+}
+
+.el-md-none {
+ @include md {
+  display: none;
+ }
+}
+
+.el-sm-none {
+ @include sm {
+  display: none;
+ }
+}
+
+.el-xs-none {
+ @include xs {
+  display: none;
+ }
+}
+
+.custom-order-lg-1 {
+ @include lg {
+  order: 1;
+ }
+}
+
+.custom-order-lg-2 {
+ @include lg {
+  order: 20;
+ }
+}
+
+.custom-order-lg-3 {
+ @include lg {
+  order: 20;
+ }
+}

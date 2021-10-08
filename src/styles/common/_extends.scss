@@ -1,0 +1,23 @@
+%selection {
+ color: #fff;
+ background: #555;
+}
+
+%gradient-text-type-1 {
+ background-image: linear-gradient(to right, #f83600 0%, #f9d423 200%);
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+%gradient-border-type-1 {
+ border-image: linear-gradient(135deg, #f83600 20%, #f9d423 70%);
+ border-image-slice: 1;
+}
+
+%gradient-bg-type-1 {
+ background-color: #f83600 !important;
+ background: -moz-linear-gradient(-45deg, #f83600 0%, #f9d423 100%) !important;
+ background: -webkit-linear-gradient( -45deg, #f83600 0%, #f9d423 100%) !important;
+ background: linear-gradient(135deg, #f83600 0%, #f9d423 100%) !important;
+}

@@ -1,0 +1,6 @@
+@mixin align-xy($displayType, $justifyContent, $alignItems: $justifyContent, $align: null) {
+ display: $displayType;
+ justify-content: $justifyContent;
+ align-items: $alignItems;
+ text-align: $align;
+}
